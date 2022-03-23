@@ -59,6 +59,8 @@
 
 ![Preview](https://github.com/henbalmant/linkedin-ui-clone-react/blob/master/Preview.gif)
 
+Project developed with [Rocketseat](https://youtu.be/-ZV-_7vNRGw).
+
 ---
 
 ## ⚙️ Features

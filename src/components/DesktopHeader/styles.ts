@@ -2,7 +2,7 @@ import styled, { css } from "styled-components";
 import { GrLinkedin } from "react-icons/gr";
 import { AiFillHome, AiOutlineBell, AiFillCaretDown } from "react-icons/ai";
 
-export const Container = styled.header`
+export const Container = styled.div`
   background: var(--color-header);
   padding: 0 30px;
 
@@ -62,10 +62,10 @@ export const Wrapper = styled.div`
 `;
 
 export const LinkedInIcon = styled(GrLinkedin)`
-  width: 34px;
   height: 34px;
+  width: 34px;
   color: var(--color-linkedin);
-  background: #fff;
+  background-color: #fff;
   border-radius: 4px;
   flex-shrink: 0;
 `;
@@ -102,8 +102,8 @@ export const NotificationsIcon = styled(AiOutlineBell)`
 export const ProfileCircle = styled.img`
   width: 24px;
   height: 24px;
-  border-radius: 50px;
-  border: 1px solid var(--color-white);
+  border-radius: 50%;
+  border: 1px solid var(--color-icons);
 `;
 
 export const CaretDownIcon = styled(AiFillCaretDown)`
